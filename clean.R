@@ -41,12 +41,12 @@ plot2
 
 #hotelState vs overallCustSat
 hotelData$hotelState <- tolower(hotelData$hotelState)
-us=map_data("state")
-p3=ggplot(hData, aes(map_id = hotelState))
-p3=p3 + geom_map(map = us, aes(fill = factor(hData$overallCustSat)))
-p3=p3+ expand_limits(x = us$long, y = us$lat) + coord_map()
-p3=p3+ ggtitle("USA Map")
-p3
+usa=map_data("state")
+plot3=ggplot(hotelData, aes(map_id = hotelState))
+plot3=plot3 + geom_map(map = usa, aes(fill = factor(hotelData$overallCustSat)))
+plot3=plot3+ expand_limits(x = usa$long, y = usa$lat) + coord_map()
+plot3=plot3+ ggtitle("USA Map")
+plot3
 
 #most of the states lie between 7-10
 #only 2 states have a value of 10 being the strongest

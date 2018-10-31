@@ -20,6 +20,9 @@ library(ggplot2)
 #hotelsize vs customer satisfaction
 plot1=ggplot(hotelData,aes(jitter(hotelSize),overallCustSat))+ geom_point()
 plot1
+
+
+
 #the range is between 4-10
 #there are few outliers
 

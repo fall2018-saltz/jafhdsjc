@@ -86,8 +86,8 @@ plot7
 #range of the plot when is 40-60 then ratig is 5-10
 
 #lengthOfStay vs customer satisfaction
-p8=ggplot(hData,aes(jitter(lengthOfStay),overallCustSat))+ geom_point()
-p8
+plot8=ggplot(hotelData,aes(jitter(lengthOfStay),overallCustSat))+ geom_point()
+plot8
 
 #mean stay is 1-4 nights
 

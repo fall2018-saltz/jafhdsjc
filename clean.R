@@ -80,8 +80,8 @@ plot6=plot6+geom_point()
 #males have higher rating
 
 #guestAge vs customer satisfaction
-p7=ggplot(hData,aes(jitter(guestAge),overallCustSat))+ geom_point()
-p7
+plot7=ggplot(hotelData,aes(jitter(guestAge),overallCustSat))+ geom_point()
+plot7
 
 #range of the plot when is 40-60 then ratig is 5-10
 

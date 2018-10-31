@@ -14,7 +14,7 @@ library(ggplot2)
 
 
 # overallCustSat is on y-axis
-#aexplonatory/indipendent variables are on the x-axis
+#explonatory/indipendent variables are on the x-axis
 
 
 #hotelsize vs customer satisfaction

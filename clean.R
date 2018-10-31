@@ -1,17 +1,19 @@
 
 library(jsonlite)
+
 hotelData=fromJSON("hotelSurveySherison.json")
+
 hotelData=data.frame(hotelData)
+
 str(hotelData)
+
 hotelData
 
-
-
-#to use the ggplot2 package
+# ggplot2 package
 library(ggplot2)
 
 
-#dependent variable overallCustSat is on y-axis
+# overallCustSat is on y-axis
 #all the dependent variables are on the x-axis
 
 

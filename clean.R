@@ -27,8 +27,8 @@ plot1
 #there are few outliers
 
 # check-in satisfaction vs customer satisfaction
-p2=ggplot(hData,aes(jitter(checkInSat),overallCustSat))+ geom_point()
-p2
+plot2=ggplot(hotelData,aes(jitter(checkInSat),overallCustSat))+ geom_point()
+plot2
 #it's almost similar as above
 #the range is between 4-10
 #there are few outliers

@@ -63,6 +63,16 @@
             ],
             "source": "clean.R",
             "target": "plot5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot6",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot6.png"
         }
     ],
     "nodes": [
@@ -102,6 +112,6 @@
             "name": "plot9.png"
         }
     ],
-    "updated_at": "2018-10-31 06:49:09",
+    "updated_at": "2018-10-31 06:49:26",
     "url": "https://github.com/fall2018-saltz/jafhdsjc"
 }

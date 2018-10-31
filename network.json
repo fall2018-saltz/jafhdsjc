@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "hotelSurveySherison",
                     "type": "csv"
                 }
@@ -30,12 +20,11 @@
             "name": "hotelSurveySherison.csv"
         },
         {
-            "name": "clean.R"
-        },
-        {
-            "name": "data.csv"
+            "assigned_to": "spachika",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-31 06:28:16",
+    "updated_at": "2018-10-31 06:33:46",
     "url": "https://github.com/fall2018-saltz/jafhdsjc"
 }

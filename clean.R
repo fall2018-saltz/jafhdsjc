@@ -59,8 +59,8 @@ plot4
 #many outliers
 
 #hotelFriendly vs customer satisfaction
-p5=ggplot(hData,aes(jitter(hotelFriendly),overallCustSat))+geom_point()
-p5
+plot5=ggplot(hotelData,aes(jitter(hotelFriendly),overallCustSat))+geom_point()
+plot5
 
 #the plot has:
 #positive slope

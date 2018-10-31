@@ -23,8 +23,11 @@
             "assigned_to": "spachika",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "plot1.png"
         }
     ],
-    "updated_at": "2018-10-31 06:33:46",
+    "updated_at": "2018-10-31 06:33:53",
     "url": "https://github.com/fall2018-saltz/jafhdsjc"
 }

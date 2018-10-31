@@ -96,5 +96,5 @@ plot9=ggplot(hotelData,aes(jitter(whenBookedTrip),overallCustSat))+ geom_point()
 plot9
 #bad independent variable because of the unusual patter
 
-m1=lm(overallCustSat~.-freeText,data = hData)
-m1
+mean1=lm(overallCustSat~.-freeText,data = hData)
+mean1

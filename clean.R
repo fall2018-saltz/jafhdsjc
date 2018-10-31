@@ -52,8 +52,8 @@ plot3
 #only 2 states have a value of 10 being the strongest
 
 #hotelClean vs customer satisfaction
-p4=ggplot(hData,aes(jitter(hotelClean),overallCustSat))+geom_point()
-p4
+plot4=ggplot(hotelData,aes(jitter(hotelClean),overallCustSat))+geom_point()
+plot4
 
 #spread too much
 #many outliers

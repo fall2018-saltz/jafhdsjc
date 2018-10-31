@@ -71,11 +71,11 @@ plot5
 #here to calculate the average and then draw the plot based on that
 #this is because the gender is a categorical variable
 library(dplyr)
-genMean= hData %>% group_by(gender) %>% summarize(m1 = mean(overallCustSat))
-genMean=as.data.frame(genMean)
+genderMean= hotelData %>% group_by(gender) %>% summarize(mean1 = mean(overallCustSat))
+genderMean=as.data.frame(genderMean)
 #mean of gender vs customer satisfaction
-p6=ggplot(genMean,aes(gender,m1)) 
-p6=p6+geom_point()
+plot6=ggplot(genderMean,aes(gender,mean1)) 
+plot6=plot6+geom_point()
 
 #males have higher rating
 

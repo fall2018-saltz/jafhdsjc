@@ -7,22 +7,22 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "hotelSurveySherison.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data",
                     "type": "csv"
                 }
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "hotelSurveySherison",
+                    "type": "csv"
+                }
+            ],
+            "source": "hotelSurveySherison.csv",
+            "target": "clean.R"
         }
     ],
     "nodes": [
@@ -36,6 +36,6 @@
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-31 06:27:43",
+    "updated_at": "2018-10-31 06:28:16",
     "url": "https://github.com/fall2018-saltz/jafhdsjc"
 }

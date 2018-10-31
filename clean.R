@@ -98,3 +98,5 @@ plot9
 
 mean1=lm(overallCustSat~.-freeText,data = hData)
 mean1
+
+summary(mean1)

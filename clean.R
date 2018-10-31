@@ -40,7 +40,7 @@ plot2
 #it should be based on the states
 
 #hotelState vs overallCustSat
-hData$hotelState <- tolower(hData$hotelState)
+hotelData$hotelState <- tolower(hotelData$hotelState)
 us=map_data("state")
 p3=ggplot(hData, aes(map_id = hotelState))
 p3=p3 + geom_map(map = us, aes(fill = factor(hData$overallCustSat)))

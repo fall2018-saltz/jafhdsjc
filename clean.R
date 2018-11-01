@@ -93,7 +93,7 @@ plot9=ggplot(hotelData,aes(jitter(whenBookedTrip),overallCustSat))+ geom_point()
 plot9
 
 
-mean1=lm(overallCustSat~.-freeText,data = hotelData)
+mean1=lm(overallCustSat~.-freeText,data = hotelSurveySherison)
 mean1
 
 summary(mean1)

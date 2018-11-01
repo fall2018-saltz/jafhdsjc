@@ -32,10 +32,9 @@ plot1
 # check-in satisfaction vs customer satisfaction
 plot2=ggplot(hotelData,aes(jitter(checkInSat),overallCustSat))+ geom_point()
 plot2
-#it's almost similar as above
-#the range is between 4-10
-#there are few outliers
 
+#the range is between 3 and 10 
+# outliers are observed
 
 
 #the plot has to be made to represent states

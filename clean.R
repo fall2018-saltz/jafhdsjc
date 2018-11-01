@@ -12,6 +12,8 @@ hotelData
 # ggplot2 package
 library(ggplot2)
 
+#1.	Create bivariate plots for each of the attributes.
+#Your code should produce nine separate plots. Make sure the Y-axis and X-axis are labeled. Keeping in mind that the overall customer satisfaction is the outcome (or dependent) variable, which axis should it go on in your plots?
 
 # overallCustSat is on y-axis
 #explonatory/indipendent variables are on the x-axis

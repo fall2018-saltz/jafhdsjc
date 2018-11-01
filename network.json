@@ -140,8 +140,12 @@
         },
         {
             "name": "plot9.png"
+        },
+        {
+            "desc": "",
+            "name": "lin.R"
         }
     ],
-    "updated_at": "2018-10-31 06:50:03",
+    "updated_at": "2018-11-01 21:21:58",
     "url": "https://github.com/fall2018-saltz/jafhdsjc"
 }

@@ -57,8 +57,8 @@ plot3
 plot4=ggplot(hotelData,aes(jitter(hotelClean),overallCustSat))+geom_point()
 plot4
 
-#spread too much
-#many outliers
+#range is between 2 and 10
+# outliers are observed
 
 #hotelFriendly vs customer satisfaction
 plot5=ggplot(hotelData,aes(jitter(hotelFriendly),overallCustSat))+geom_point()

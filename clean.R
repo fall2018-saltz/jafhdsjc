@@ -74,7 +74,7 @@ genderMean=as.data.frame(genderMean)
 plot6=ggplot(genderMean,aes(gender,mean1)) 
 plot6=plot6+geom_point()
 
-#males have higher rating
+#males have higher rating which is close to 7.13 while females have rating below 7.10
 
 #guestAge vs customer satisfaction
 plot7=ggplot(hotelData,aes(jitter(guestAge),overallCustSat))+ geom_point()

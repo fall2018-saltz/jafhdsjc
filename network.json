@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "input": "hotelSurveySherison",
-                    "type": "csv"
-                }
-            ],
-            "source": "hotelSurveySherison.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot1",
                     "type": "png"
                 }
@@ -123,6 +113,16 @@
             ],
             "source": "cl.R",
             "target": "hotelSurveySherison.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "hotelData",
+                    "type": "csv"
+                }
+            ],
+            "source": "hotelSurveySherison.csv",
+            "target": "clean.R"
         }
     ],
     "nodes": [
@@ -172,6 +172,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-01 21:25:23",
+    "updated_at": "2018-11-01 21:26:05",
     "url": "https://github.com/fall2018-saltz/jafhdsjc"
 }

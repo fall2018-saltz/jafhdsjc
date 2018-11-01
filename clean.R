@@ -63,14 +63,10 @@ plot4
 plot5=ggplot(hotelData,aes(jitter(hotelFriendly),overallCustSat))+geom_point()
 plot5
 
-#the plot has:
-#positive slope
-#increasing trend
+#the plot has increasing trend
 
-#to usethe library of dplyr
-#for data manipuations
-#here to calculate the average and then draw the plot based on that
-#this is because the gender is a categorical variable
+#to usethe library of dplyr for data maupulation
+
 library(dplyr)
 genderMean= hotelData %>% group_by(gender) %>% summarize(mean1 = mean(overallCustSat))
 genderMean=as.data.frame(genderMean)

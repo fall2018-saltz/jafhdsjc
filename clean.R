@@ -37,9 +37,9 @@ plot2
 # outliers are observed
 
 
-#the plot has to be made to represent states
-#hence create a map
-#it should be based on the states
+ 
+# create a map to represent states
+
 
 #hotelState vs overallCustSat
 hotelData$hotelState <- tolower(hotelData$hotelState)

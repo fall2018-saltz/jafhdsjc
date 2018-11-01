@@ -50,8 +50,7 @@ plot3=plot3+ expand_limits(x = usa$long, y = usa$lat) + coord_map()
 plot3=plot3+ ggtitle("USA Map")
 plot3
 
-#most of the states lie between 7-10
-#only 2 states have a value of 10 being the strongest
+
 
 #hotelClean vs customer satisfaction
 plot4=ggplot(hotelData,aes(jitter(hotelClean),overallCustSat))+geom_point()

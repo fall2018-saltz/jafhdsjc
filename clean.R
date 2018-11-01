@@ -86,12 +86,12 @@ plot7
 plot8=ggplot(hotelData,aes(jitter(lengthOfStay),overallCustSat))+ geom_point()
 plot8
 
-#mean stay is 1-4 nights
+#mean stay is 3 nights
 
 #booking time vs customer satisfaction
 plot9=ggplot(hotelData,aes(jitter(whenBookedTrip),overallCustSat))+ geom_point()
 plot9
-#bad independent variable because of the unusual patter
+
 
 mean1=lm(overallCustSat~.-freeText,data = hotelData)
 mean1

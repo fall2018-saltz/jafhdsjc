@@ -97,13 +97,17 @@ plot7
 #range of the plot when is 40-60 then rating is 5-10
 
 #LengthOfStay vs Customer satisfaction
+
 plot8=ggplot(hotelData,aes(jitter(lengthOfStay),overallCustSat))+ geom_point()
+
 plot8
 
 #mean stay is 3 nights
 
 #booking time vs customer satisfaction
+
 plot9=ggplot(hotelData,aes(jitter(whenBookedTrip),overallCustSat))+ geom_point()
+
 plot9
 
 

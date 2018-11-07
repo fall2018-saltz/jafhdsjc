@@ -102,9 +102,9 @@ plot8=ggplot(hotelData,aes(jitter(lengthOfStay),overallCustSat))+ geom_point()
 
 plot8
 
-#mean stay is 3 nights
+#Mean stay is 3 nights
 
-#booking time vs customer satisfaction
+#Booking Time vs Customer Satisfaction
 
 plot9=ggplot(hotelData,aes(jitter(whenBookedTrip),overallCustSat))+ geom_point()
 

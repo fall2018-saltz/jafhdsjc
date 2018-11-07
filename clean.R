@@ -43,23 +43,31 @@ plot2
 
 #hotelState vs overallCustSat
 hotelData$hotelState <- tolower(hotelData$hotelState)
+
 usa=map_data("state")
+
 plot3=ggplot(hotelData, aes(map_id = hotelState))
+
 plot3=plot3 + geom_map(map = usa, aes(fill = factor(hotelData$overallCustSat)))
+
 plot3=plot3+ expand_limits(x = usa$long, y = usa$lat) + coord_map()
+
 plot3=plot3+ ggtitle("USA Map")
+
 plot3
 
 
 
 #hotelClean vs customer satisfaction
 plot4=ggplot(hotelData,aes(jitter(hotelClean),overallCustSat))+geom_point()
+
 plot4
 
 #range is between 2 and 10
 # outliers are observed
 
 #hotelFriendly vs customer satisfaction
+
 plot5=ggplot(hotelData,aes(jitter(hotelFriendly),overallCustSat))+geom_point()
 plot5
 
@@ -68,13 +76,19 @@ plot5
 #to usethe library of dplyr for data maupulation
 
 library(dplyr)
+
 genderMean= hotelData %>% group_by(gender) %>% summarize(mean1 = mean(overallCustSat))
+
 genderMean=as.data.frame(genderMean)
+
 #mean of gender vs customer satisfaction
+
+
 plot6=ggplot(genderMean,aes(gender,mean1)) 
+
 plot6=plot6+geom_point()
 
-#males have higher rating which is close to 7.13 while females have rating below 7.10
+#males have rating around 7.2 and  females have rating below 7.2
 
 #guestAge vs customer satisfaction
 plot7=ggplot(hotelData,aes(jitter(guestAge),overallCustSat))+ geom_point()

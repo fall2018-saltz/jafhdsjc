@@ -1,0 +1,177 @@
+{
+    "collaborators": [
+        "spachika"
+    ],
+    "created_at": "2018-10-31 06:27:29",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "output": "plot1",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot2",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot3",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot4",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot5",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot5.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot6",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot6.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot7",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot7.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot8",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot8.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot9",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot9.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hotelData",
+                    "type": "csv"
+                }
+            ],
+            "source": "cl.R",
+            "target": "hotelSurveySherison.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "hotelData",
+                    "type": "csv"
+                }
+            ],
+            "source": "hotelSurveySherison.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "hotelData",
+                    "type": "csv"
+                }
+            ],
+            "source": "hotelSurveySherison.csv",
+            "target": "lin.R"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "hotelSurveySherison.csv"
+        },
+        {
+            "assigned_to": "spachika",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot1.png"
+        },
+        {
+            "name": "plot2.png"
+        },
+        {
+            "name": "plot3.png"
+        },
+        {
+            "name": "plot4.png"
+        },
+        {
+            "name": "plot5.png"
+        },
+        {
+            "name": "plot6.png"
+        },
+        {
+            "name": "plot7.png"
+        },
+        {
+            "name": "plot8.png"
+        },
+        {
+            "name": "plot9.png"
+        },
+        {
+            "desc": "",
+            "name": "lin.R"
+        },
+        {
+            "assigned_to": "spachika",
+            "desc": "",
+            "name": "cl.R",
+            "task_status": "in progress"
+        }
+    ],
+    "updated_at": "2018-11-01 21:26:20",
+    "url": "https://github.com/fall2018-saltz/jafhdsjc"
+}
